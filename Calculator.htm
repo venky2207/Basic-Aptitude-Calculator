@@ -1,0 +1,77 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Calculators</title>
+		<link rel="stylesheet" type="text/css" href="Calculator.css">
+		<script src="https://kit.fontawesome.com/c5a222954a.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<h1><div class="ic">Calculators</div></h1>
+		<div class="udm">
+			<center>UNIT DIGIT</center> 
+		<div id="ud">
+			<center>
+			a:<input  type="number" id="a">
+			<br>b:<input type ="number" id="b">
+		</center>
+		</div>
+     <div id="ud1"> 
+     <center>  
+	<button onclick="Functionud()">UNIT DIGIT</button>
+    </center>
+    </div>
+    <div id="ud2">
+    	<center>
+	<p id="rem"></p>
+</center>
+        </div>
+    </div>
+    <div class="divd">
+    	<div class="rem0">REMAINDER</div>
+        <div id="rem">
+	        Dividend:<input type="number" id="c">
+	        <br>Divisor:<input type="number" id="d">
+	    </div>
+	    <div id="rem1">
+	    	<button onclick="Functionrm()">Solve</button>
+	    </div>
+	    <div id="rem2">
+	    	<p id="q"></p>
+	    	<p id="r"></p>
+	    </div>
+	    </div>
+	    <div class="quaq">
+	    	<div class="qua0">ROOTS OF THE EQUATION</div>
+	    <div id="qua">
+	    	ax^2+bx+c=0
+	    </div>
+	    <div id="qua1">
+	    	a:<input type="number" id="e">
+	    	<br>b:<input type="number" id="f">
+	    	<br>c:<input type="number" id="g">
+	    </div>
+	    <div id="qua3">
+	    	<button onclick="Functionqe()">Solve</button>
+	    </div>
+	    <div id="qua2">
+	    	<p id="r1"></p>
+	    	<p id="r2"></p>
+	    </div>
+	</div>
+	<div class="nzn">
+	    <div id="nz">
+	    	No.of Zeros in a Factorial
+	    </div>
+	    <div id="nz1">
+	    	n!:<input type="number" id="h" oninput="Functionnz()">
+	    </div>
+	    <div id="nz2">
+	    	<p id="z"></p>
+	    </div>
+	</div>
+	<script src="Calculator.js"></script>
+	</body>
+	</html>

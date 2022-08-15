@@ -1,0 +1,145 @@
+body{
+	background-image: url("img.png");
+	background-size: cover;
+    background-position:center center;
+}
+h1{
+	font-size: 45px;
+    text-align: center;
+    font-family: 'Brush Script MT',Cursive;
+    text-decoration: none;
+}
+.ic{
+    margin-top: -18px;
+	margin-left: 35px;
+}
+.udm{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #ADD8E6;
+    background: rgba(0,0,0, 0.4);
+    color: floralwhite;
+}
+#a{
+	margin-top: 20px;
+}
+#b{
+	margin-top: 20px;
+}
+#ud1{
+	margin-top: 20px;
+}
+.divd{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #ADD8E6;
+    background: rgba(0,0,0, 0.4);
+    color: floralwhite;
+    margin-left: 500px;
+    margin-top: -298px;
+    text-align: center;
+}
+#c{
+	margin-top: 20px;
+	margin-right: -6.5px;
+}
+#d{
+	margin-top: 20px;
+}
+#rem1{
+	margin-top: 20px;
+}
+.quaq{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #ADD8E6;
+    background: rgba(0,0,0, 0.4);
+    color: floralwhite;
+    margin-left: 960px;
+    margin-top: -298px;
+    text-align: center;
+}
+#e{
+   margin-top: 10px;
+}
+#f{
+    margin-top: 10px;
+}
+#g{
+    margin-top: 10px;
+}
+#qua3{
+    margin-top: 10px;
+}
+#qua{
+    margin-top: 5px;
+}
+.nzn{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 25px;
+    width: 250px;
+    height: 95px;
+    margin: 50px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 10px 10px 5px #ADD8E6;
+    background: rgba(0,0,0, 0.4);
+    color: floralwhite;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+#nz1{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    background-image: url("https://images.pexels.com/photos/40465/pexels-photo-40465.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no repeat;
+  }
+  h1{
+    margin-left: 0px;
+    margin-right: 55px;
+    text-decoration: underline;
+  }
+  .udm{
+    margin-left: 48px;
+  }
+  .divd{
+    margin-top: 50px;
+    margin-left: 48px;
+  }
+  .quaq{
+    margin-top: 50px;
+    margin-left: 48px;
+  }
+  .nzn{
+    margin-top: 50px;
+    margin-left: 48px;
+  }
+}
