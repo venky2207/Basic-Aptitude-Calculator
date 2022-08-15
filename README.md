@@ -5,4 +5,4 @@ This consists of
   .No.of zeros in a factorial
   .Remainder Calculator
   
-The link for the website is  
+The link for the website is  https://venky2207.github.io/Basic-Aptitude-Calculator/Calculator.htm
